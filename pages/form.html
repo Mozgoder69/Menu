@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="ZELENIN">
+    <meta name="description" content="Формы">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../css/form.css" rel="stylesheet">
+    <title>Формы</title>
+</head>
+
+<body>
+    <nav>
+        <a href="../menu.html" target="content">
+            <img src="../img/main.jpg" height="48" alt="Я" title="Перейти на главную">
+        </a>
+        <ul>
+            <li class="refs">
+                <h1>Views</h1>
+                <ul>
+                    <li><a href="graphic.html" target="content">Graphics</a></li>
+                    <li><a href="frame.html" target="content">Frames</a></li>
+                    <li><a href="form.html" target="content">Forms</a></li>
+                </ul>
+            </li>
+            <li class="refs">
+                <h1>Lists</h1>
+                <ul>
+                    <li><a href="disciplines.html" target="content">Disciplines</a></li>
+                    <li><a href="programs.html" target="content">Programs</a></li>
+                    <li><a href="smartphones.html" target="content">Smartphones</a></li>
+                    <li><a href="computers.html" target="content">Computers</a></li>
+                </ul>
+            </li>
+            <li class="refs">
+                <h1>Odessa</h1>
+                <ul>
+                    <li><a href="history.html" target="content">History</a></li>
+                    <li><a href="geography.html" target="content">Geography</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+    <h2 class="h">Формы</h2>
+    <form action="form.html" method="POST">
+
+        <h3>Контактные данные</h3>
+        <p class="header">Расскажите нам о себе</p>
+
+        <div class="field">
+            <input class="data" type="text" name="name" required>
+            <label class="example">Например Джон</label>
+            <label class="title">Имя</label>
+        </div>
+
+        <div class="field">
+            <input class="data" type="text" name="surname" required>
+            <label class="example">Например Смит</label>
+            <label class="title">Фамилия</label>
+        </div>
+
+        <div class="field">
+            <input class="data" type="number" name="phone" required>
+            <label class="example">Например +380987654321</label>
+            <label class="title">Телефон</label>
+        </div>
+
+        <div class="field">
+            <select class="data" name="sex" size="1" required>
+                <option value="">Мужской</option>
+                <option value="">Женский</option>
+            </select>
+            <label class="example">Например Женский</label>
+            <label class="title">Пол</label>
+        </div>
+
+        <div class="field">
+            <input class="data" type="number" name="index" required>
+            <label class="example">Например 65125</label>
+            <label class="title">Домашний индекс</label>
+        </div>
+
+        <div class="field">
+            <input class="birth" type="date" name="birth" required>
+            <label class="example">Например 01.01.1990</label>
+            <label class="title">Дата рождения</label>
+        </div>
+
+        <div class="field">
+            <input class="data" type="text" name="region" required>
+            <label class="example">Например Одесская</label>
+            <label class="title">Область</label>
+        </div>
+
+        <div class="field">
+            <input class="data" type="text" name="city" required>
+            <label class="example">Например Одесса</label>
+            <label class="title">Город</label>
+        </div>
+
+        <div class="field">
+            <input class="data" type="text" name="adress" required>
+            <label class="example">Например Дерибасовская, 1/1</label>
+            <label class="title">Адрес</label>
+        </div>
+
+        <h3>Детали заказа</h3>
+        <p class="header">Выберите интересующую Вас модель</p>
+
+        <div class="img">
+            <label>
+                <img src="../img/samsung.jpg" alt="samsung">
+                <input class="radio" type="radio" name="model" id="model" value="samsung">
+                Galaxy M31
+                <ul>
+                    <li>ЦПУ: Exynos 9611</li>
+                    <li>ОЗУ: 6 ГБ</li>
+                    <li>ПЗУ: 128 ГБ</li>
+                    <li>Основная камера: 64 Мп</li>
+                    <li>Цена: 7499 грн</li>
+                </ul>
+            </label>
+        </div>
+
+        <div>
+            <label class="img">
+                <img src="../img/huawei.jpg" alt="huawei">
+                <input class="radio" type="radio" name="model" value="huawei" checked>
+                Honor 10 Lite
+                <ul>
+                    <li>ЦПУ: Kirin 710</li>
+                    <li>ОЗУ: 3 ГБ</li>
+                    <li>ПЗУ: 64 ГБ</li>
+                    <li>Основная камера: 13 Мп</li>
+                    <li>Цена: 3999 грн</li>
+                </ul>
+            </label>
+        </div>
+
+        <div class="img">
+            <label>
+                <img src="../img/xiaomi.jpg" alt="xiaomi">
+                <input class="radio" type="radio" name="model" value="xiaomi">
+                Redmi Note 8T
+                <ul>
+                    <li>ЦПУ: Snapdragon 665</li>
+                    <li>ОЗУ: 4 ГБ</li>
+                    <li>ПЗУ: 64 ГБ</li>
+                    <li>Основная камера: 48 Мп</li>
+                    <li>Цена: 4999 грн</li>
+                </ul>
+            </label>
+        </div>
+
+        <div class="field">
+            <select class="data" name="currency" size="1" required>
+                <option value="">EUR</option>
+                <option value="">USD</option>
+                <option value="">UAH</option>
+            </select>
+            <label class="example">Например UAH</label>
+            <label class="title">Валюта оплаты</label>
+        </div>
+
+        <div class="field">
+            <select class="data" name="method" size="1" required>
+                <option value="">Наличными</option>
+                <option value="">Картой</option>
+            </select>
+            <label class="example">Например картой</label>
+            <label class="title">Способ оплаты</label>
+        </div>
+
+        <div class="field">
+            <input class="birth" type="date" name="payment" required>
+            <label class="example">Например 01.01.2020</label>
+            <label class="title">Дата оплаты</label>
+        </div>
+
+        <label>
+            <input class="agree" type="checkbox" name="agree" required> Я ознакомлен с политикой сайта и даю свое
+            согласие на хранение
+            и обработку моих персональных данных
+        </label>
+
+        <input class="submit" type="submit" name="submit" value="Далее">
+
+    </form>
+</body>
+
+</html>

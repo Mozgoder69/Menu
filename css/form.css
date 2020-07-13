@@ -1,0 +1,157 @@
+body { 
+    background: #182028;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+    margin: auto;
+    max-width: 80%;
+    padding: 0; 
+}
+
+body, nav, nav img, form {
+    box-shadow: 0 2px 4px #000000;
+}
+
+nav {
+    display: inline-block;
+    width: 100%;
+}
+
+.refs {
+    border-bottom: 1px solid #182028;
+    color: #708090;
+    float: right;
+    width: 31%;
+}
+
+nav img {
+    border-radius: 50%;
+    float: left;
+    margin: 1%;
+    margin-left: 2%;
+    width: 48px;
+}
+
+.h {
+    font-size: xx-large;
+    margin: 2%;
+}
+
+h1 {
+    font-size: medium;
+    text-align: center;
+}
+
+p {
+    font-size: medium;
+}
+
+h2 {
+    text-align: center;
+}
+
+div, input {
+    padding: 2%;
+}
+
+h3, img, .header, .agree, .submit {
+    margin: 2%;
+}
+
+form {
+    margin: 8%;
+}
+
+.img {
+    color: grey;
+}
+
+div, img {
+    display: inline-block;
+    position: relative;
+    width: 29%;
+}
+
+input, select {
+    background-color: #182028;
+    color: white;
+    font-size: medium;
+}
+
+.submit {
+    border: 1px solid grey;
+    border-radius: 4px;
+    padding: 1%;
+}
+
+.birth, .data {
+    border: none;
+    border-bottom: 1px solid grey;
+    width: 100%;
+}
+
+.title {
+    left: 8%;
+    pointer-events: none;
+    position: absolute;
+    top: 2em;
+    transition: 0.2s;
+}
+
+.example, .title {
+    color: grey;
+    font-size: small;
+}
+
+:focus {
+    border-bottom: 1px solid #80c0ff;
+    outline: none;
+}
+
+.radio:focus ~ ul, .radio:focus ~ p {
+    color: white;
+}
+
+:focus ~ .title, :valid ~ .title, .birth ~ .title {
+    color: white;
+    top: 0;
+}
+
+li a {
+    color: white;
+    display: block;
+    margin-left: -40px;
+    text-align: center;
+    text-decoration: none;
+}
+
+a {
+    height: 40px;
+    padding-top: 20px;
+}
+
+li, ul {
+    list-style: none;  
+}
+
+li ul {
+    display: none;
+    margin-top: 1px;
+    position: absolute;
+    width: 21%;
+}
+  
+a:hover {
+    background: #304050;
+}
+
+.refs:hover ul {
+    background: #202830;
+    display: block;
+}
+
+.refs:hover {
+    border-bottom: 1px solid #80c0ff;
+    color: white;
+    cursor: pointer;
+}

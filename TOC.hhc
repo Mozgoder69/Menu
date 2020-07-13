@@ -1,0 +1,62 @@
+<HTML>
+ <HEAD>
+  <META name="GENERATOR" content="htm2chm 3.0.9.3">
+  <!-- Sitemap 1.0 -->
+ </HEAD>
+<BODY>
+ <OBJECT type="text/site properties">
+  <PARAM name="Window Styles" value="0x800027">
+  <PARAM name="ImageType" value="Folder">
+ </OBJECT>
+<UL>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="pages">
+ </OBJECT>
+<UL>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="computers">
+  <PARAM name="Local" value="pages/computers.html">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="disciplines">
+  <PARAM name="Local" value="pages/disciplines.html">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="form">
+  <PARAM name="Local" value="pages/form.html">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="frame">
+  <PARAM name="Local" value="pages/frame.html">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="geography">
+  <PARAM name="Local" value="pages/geography.html">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="graphic">
+  <PARAM name="Local" value="pages/graphic.html">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="history">
+  <PARAM name="Local" value="pages/history.html">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="media">
+  <PARAM name="Local" value="pages/media.html">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="programs">
+  <PARAM name="Local" value="pages/programs.html">
+ </OBJECT>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="smartphones">
+  <PARAM name="Local" value="pages/smartphones.html">
+ </OBJECT>
+</UL>
+ <LI><OBJECT type="text/sitemap">
+  <PARAM name="Name" value="menu">
+  <PARAM name="Local" value="menu.html">
+ </OBJECT>
+</BODY>
+</HTML>

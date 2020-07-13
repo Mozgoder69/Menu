@@ -1,0 +1,98 @@
+body { 
+    background: #182028;
+    color: white;
+    font: normal 16px/24px "Roboto", Arial, sans-serif;
+    line-height: 1.5;
+    margin: auto;
+    max-width: 80%;
+    padding: 0;
+}
+
+body, nav, nav img, .info {
+    box-shadow: 0 2px 4px #000000;
+}
+
+nav {
+    display: inline-block;
+    width: 100%;
+}
+
+.refs {
+    border-bottom: 1px solid #182028;
+    color: #708090;
+    float: right;
+    width: 31%;
+}
+
+img {
+    border-radius: 50%;
+    margin: 1%;
+    margin-left: 2%;
+}
+
+nav img, .photo {
+    float: left;
+}
+
+.text {
+    float: right;
+    margin-left: 40px;
+}
+
+.info {
+    display: inline-block;
+    margin: 4%;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 4%;
+}
+
+.h {
+    font-size: xx-large;
+    margin: 2%;
+}
+
+h1 {
+    font-size: medium;
+    text-align: center;
+}
+
+p {
+    font-size: medium;
+}
+
+li a {
+    color: white;
+    display: block;
+    margin-left: -40px;
+    text-align: center;
+    text-decoration: none;
+    height: 40px;
+    padding-top: 20px;
+}
+
+li, ul {
+    list-style: none;  
+}
+
+li ul {
+    display: none;
+    margin-top: 1px;
+    position: absolute;
+    width: 21%;
+}
+  
+a:hover {
+    background: #304050;
+}
+
+.refs:hover ul {
+    background: #202830;
+    display: block;
+}
+
+.refs:hover {
+    border-bottom: 1px solid #80c0ff;
+    color: white;
+    cursor: pointer;
+}
